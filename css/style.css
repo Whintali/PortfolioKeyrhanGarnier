@@ -1,0 +1,114 @@
+.header {
+	width: 100%;
+	margin-left:0;
+	margin-right:0;
+	height: 75px;
+	line-height: 70px;
+	background-color: #1c1c1f;
+	opacity: 0.5;	
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+
+.header .header-logo{
+	color:white;
+	font-family: Roboto;
+	margin-left: 10px;
+	float:left;
+	width: 78px;
+}
+
+.header .header-menu{
+	position: relative;
+	float:right;
+	margin-right: 10px;
+}
+
+.header .header-menu a{
+	color:white;
+	margin-right:15px;
+}
+.header .header-menu a:hover{
+	color:#B7A675;
+}
+
+.banner {
+	margin-top: -30px;
+}
+.banner .banner-image{
+	position: relative;
+}
+.banner .banner-content{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 280px;
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+	color:white;
+}
+.bts p{
+	font-size: 20px;
+	padding: 5px;
+}
+
+.apropos {
+	margin-left: 80px;
+}
+.apropos .apropos-element i {
+	text-align: center;
+	font-size: 40px;
+}
+.apropos .apropos-element{
+	text-align: center;
+}
+.apropos .apropos-element p{
+	text-align: left;
+	margin-top: 5%;
+	font-size: 20px;
+}
+
+.projet .projet-element {
+	width:65px;
+	border-width: 1px;
+	border-radius: 25px;
+	position: relative;
+}
+.projet .projet-element .projet-element-content{
+	position: absolute;
+	margin-top: 80px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 100%;
+	text-align: center;
+}
+
+.footer{
+	margin-top: 25px;
+	bottom: 0;
+	background-color: #1c1c1f;
+	text-align: center;
+}
+.footer h2,.footer h3,.footer a{
+	color: white;
+}
+.footer .footer-logo{
+	color:white;
+	font-family: Roboto;
+	width: 5px;
+}
+
+.field {
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.own-modal {
+	padding-top: 10%;
+}
+
+.
